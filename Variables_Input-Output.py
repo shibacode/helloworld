@@ -18,6 +18,6 @@ userResponse2=raw_input()
 
 myPrompt="Type your name:"
 some-other_response=raw_input(myPrompt)
-print 'You said: '+some_other_response+'likes',steakAndFries
-
+print 'You said: '+some_other_response+'likes',steakAndFries # This variable is not defined prior to accessing it. You will get an error.
+# The next line starts a comment block that never gets closed. You will get an error.
 print'''
